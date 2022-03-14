@@ -1,0 +1,14 @@
+Aula de vetor:
+
+O vetor em C++ é equivalente a tupla em Python, porém é possível mudar um valor dentro dele
+O vetor em C++ não pode apresentar dados de naturezas diferentes e tem um tamanho fixo
+Ao vetor ser declarado, deve-se definir seu tamanho, o qual não poderá ser usado
+Tamanho real de um vetor: o tamanho que ele foi declarado
+Tamanho efetivo de um vetor: o tamanho que está efetivamente sendo usado
+
+#define ---> definir uma constante simbólica (o significado de um símbolo no código)
+
+
+Definindo um vetor:
+
+float vetorb[5] = {} ---> vetor vazio, mas pode ser completado 

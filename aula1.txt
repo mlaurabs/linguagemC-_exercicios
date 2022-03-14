@@ -1,0 +1,56 @@
+Antes de começar qualquer código, é necessário chamar a biblioteca padrão:
+ex.: #include <ionstream>
+
+O código do programa principal sempre fica dentro da função: int main()
+
+Melhora o tempo de resposta dos stds---> std::ios::sync_with_stdio(false);
+
+Comentários:
+por linha: //
+por bloco: /*comentario*/
+
+Operador output: std::cout << ---> Print e echo
+ex.: std::cout << "Hello World!" << variavel + 1 << "," << letra << '\n'; 
+obs: o '\n' é uma char (caracter)
+
+Operador input: std::cin >> ---> Print e echo
+ex.: std::cin >> variavel; ---> o numero digitado entrará na variavel 
+Para escrever o comando para o input é necessário usar o cout
+ex.: std::out << "Digite seu nome: ";
+     std::cin >> nome;
+     std::out << "Seu nome é:" << nome <<;
+
+/n ---> std::endl
+
+Tipos de dados:
+int
+float
+char: caracter(aspas simples)
+ex.: char letra
+    letra = 'a'
+
+double: números decimais de maior precisão
+bool: true or false
+
+Para declarar uma variável é necessário, definir seu tipo
+ex.: int valor, preco
+     valor = 3
+     preco = 9
+       ou
+    int valor = 3, preco = 9
+
+Variáveis globais são incializadas com valor estabelecido, por exemplo:
+int valor ---> valor terá 0
+bool testa ---> testa será false
+
+Precisão no output:
+std::cout << std::fixed;
+std::cout.precision(num);
+-Toda vez que um float ou double for imprimido após essas instruções, eles
+terão a precisão definida.
+
+Usando fora da função principal...
+        using namespace std;
+Todas as instruções no programa de input e outp não terá mais a necessidade 
+de escrever std:: antes do cout ou cin
+    

@@ -1,0 +1,27 @@
+Condicionais
+
+Operadores lógicos
+C++   Python 
+&& => and
+|| => or
+== ==> ==
+>  ==> >
+<  ==> <
+>= ==> >=
+<= ==> <=
+
+- if( condição ){
+	código a ser executado
+}
+
+- else{
+	código a ser executado	
+
+}
+ -else if( condição ){
+	código a ser testado
+}
+
+else if == elif
+
+Obs.: a condição deve estar sempre entre parênteses
